@@ -41,29 +41,30 @@ header nav{
     gap: 2rem;
 }
 
-header nav a{
+header nav .link{
     text-decoration: none;
     transition: .6s ease-in-out;
+    color: var(--text-color);
 }
 
-header nav a:hover{
+header nav .link:hover{
     text-decoration: underline;
 
 }
 
-.container{
+.containeri{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.container .text-main{
+.containeri .text-main{
     font-size: 2rem;
     margin: 1.2rem 0;
 }
 
-.container .cardapio{
+.containeri .cardapio{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,40 +81,40 @@ header nav a:hover{
 
 }
 
-.card{
+.cardi{
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
     margin-bottom: 1.5rem;
 
-    width: 900px;
+    max-width: 900px;
     height: 400px;
     background: var(--secondary-color);
     padding: 1rem 4%;
 }
 
-.card .img img{
+.cardi .img img{
     max-width: 400px;
 }
 
-.card .card-text{
+.cardi .cardi-text{
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 2rem;
 }
 
-.card .card-text h3{
+.cardi .cardi-text h3{
     font-size: 1.5rem;
 }
 
-.card .card-text p{
+.cardi .cardi-text p{
     text-align: justify;
     font-weight: 300;
 }
 
-.card .card-text button{
+.cardi .cardi-text button{
     background-color: var(--btn-color);
     color: white;
     padding: 1rem 4.2rem;
